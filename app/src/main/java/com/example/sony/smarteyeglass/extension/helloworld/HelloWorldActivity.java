@@ -139,12 +139,12 @@ public final class HelloWorldActivity extends Activity implements OnClickListene
 
                 break;
             case R.id.phn_next_btn:
-                mState = !mState;
+                //mState = !mState;
                 updateSong();
                 HelloWorldExtensionService.SmartEyeglassControl.updateState(mState);
                 HelloWorldExtensionService.SmartEyeglassControl.updateSong(mIdx);
                 mIdx++;
-                mState = !mState;
+                //mState = !mState;
                 //need to send the data to glass
                 break;
             default:

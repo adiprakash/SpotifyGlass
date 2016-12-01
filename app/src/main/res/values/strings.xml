@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!-- No translation of sample extensions -->
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="MissingTranslation">
+
+    <!-- Name of app, shown when installing/uninstalling extension -->
+    <string name="app_name">Spotify Glass</string>
+    <!-- Title of preference activity -->
+    <string name="preference_activity_title">Spotify Extension</string>
+    <!-- Name of extension, shown in preferences -->
+    <string name="extension_name">Spotify</string>
+    <!-- Text used on control layout -->
+    <string name="text_title_layout">Sample Text</string>
+    <!-- Text in -->
+    <string name="text_phone_to_smarteyeglass">Hello SmartEyeglass</string>
+
+    <!-- Configuration title shown in preferences -->
+    <string name="configuration_text">Spotify Activity</string>
+
+    <string name="play_button">Play Button</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

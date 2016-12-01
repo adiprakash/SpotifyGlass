@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/smarteyeglass_control_width"
+    android:layout_height="@dimen/smarteyeglass_control_height"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:ignore="ContentDescription,PxUsage" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6px"
+        android:background="@drawable/shape"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/btn_update_this"
+        android:gravity="center_horizontal"
+        android:layout_width="@dimen/smarteyeglass_control_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="6px"
+        android:background="@android:color/black"
+        android:clickable="true"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/smarteyeglass_text_size_small" />
+
+</LinearLayout>

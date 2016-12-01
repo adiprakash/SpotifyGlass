@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spotify_layout.xml",
+        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\layout\\spotify_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout.xml",
+        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\layout\\layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smart_watch_notification_widget.xml",
+        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\exploded-aar\\HelloWorld\\SmartExtensionUtils\\unspecified\\res\\layout\\smart_watch_notification_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smarteyeglass_widgetcard.xml",
+        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\exploded-aar\\HelloWorld\\SmartEyeglassAPI\\unspecified\\res\\layout\\smarteyeglass_widgetcard.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smart_watch_widget.xml",
+        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\exploded-aar\\HelloWorld\\SmartExtensionUtils\\unspecified\\res\\layout\\smart_watch_widget.xml"
+    },
+    {
+        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\layout\\phonelayout.xml",
+        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\layout\\phonelayout.xml"
+    }
+]

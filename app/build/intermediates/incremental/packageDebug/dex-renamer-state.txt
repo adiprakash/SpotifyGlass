@@ -1,0 +1,7 @@
+#Wed Nov 30 23:11:57 EST 2016
+base.0=C\:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ddae705954107561a37714f856f9a2eec7de1208
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f0ae1e9d312c7551fe7b12a89e9048375ea99ca9\\classes.dex
+base.1=C\:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f0ae1e9d312c7551fe7b12a89e9048375ea99ca9
+file.0=C\:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_ddae705954107561a37714f856f9a2eec7de1208\\classes.dex

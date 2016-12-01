@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c2df3f11239f2ae486349d09cb724f7aa2007ad">
+        <dex dex="C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ddae705954107561a37714f856f9a2eec7de1208\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a83510c7bd8d7052d9e760a68ec169bbe8cd16cd">
+        <dex dex="C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f0ae1e9d312c7551fe7b12a89e9048375ea99ca9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ADITYA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_1130f037c3532334601b66095a407294b811442b\classes.dex" />
+    </item>
+
+</items>

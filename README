@@ -1,10 +1,8 @@
 -------------------------------
 # Features shown in this sample
 -------------------------------
-* Start SmartEyeglass app from activity
-* Send message between SmartEyeglass app and activity
-* Start activity from SmartEyeglass app
-* Set text content of a textview in layout of SmartEyeglass app
+* Spotify Glass app for playing the song
+* Send control back from accesory app (Glass)
 
 -----------------------------
 # Notes

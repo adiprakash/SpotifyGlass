@@ -36,14 +36,27 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.ImageView;
 
 import com.sonyericsson.extras.liveware.aef.registration.Registration;
+import com.sonyericsson.extras.liveware.extension.util.ExtensionUtils;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * The Hello World activity provides a button on the phone that starts
@@ -55,33 +68,58 @@ public final class HelloWorldActivity extends Activity implements OnClickListene
 
     private static final String TAG = "HelloWorldActivity";
 
-    private static  int mIdx = 0;
-    private static boolean mState = false;
+    private static boolean mPause = true;
 
     private ImageView mPlay = null;
-    private ImageView mNext = null;
     private TextView mTitle = null;
     private TextView mText = null;
-
+    private RelativeLayout mLayout = null;
     private IntentFilter filter = null;
+    private static final String mSong = "Can't stop the feeling";
+    private static final String mAlbum = "Justin Timberlake";
+    private static String playPath = null;
+    private static String pausePath = null;
 
-    private String[] mSong = {" Don't let me down", " Can't stop the feeling",
-            " Don't let it go", " Panda's in my home", " Counting Stars"};
-
-    private String[] mAlbum = {" Chain Smokers", " Justin timberlake",
-            " Chain Smoker", " Bryan Adam's", "Band of boys"};
+    //path to dynamically get the images from the sdacard
+    private File path = null;
+    private String image = null;
+    private List<String> buttons = new ArrayList<String>();
 
     @Override
     public void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.phonelayout);
-
+        mLayout = (RelativeLayout) findViewById(R.id.spotify_phone);
         mTitle = (TextView) findViewById(R.id.phn_title);
         mText = (TextView) findViewById(R.id.phn_text);
-        mNext = (ImageView) findViewById(R.id.phn_next_btn);
         mPlay = (ImageView) findViewById(R.id.phn_play_btn);
         mPlay.setOnClickListener(this);
-        mNext.setOnClickListener(this);
+
+        // Now get the images from the sdcard
+
+        path = new File(Environment.getExternalStorageDirectory(), "a.png");
+        if(path.exists()){
+            image = path.getPath();
+        }else{
+            Log.d(TAG, "there is no file in the sdcard");
+            finish();
+        }
+
+        path = new File(Environment.getExternalStorageDirectory(),"play.png");
+        if(path.exists()){
+            playPath = path.getPath();
+        }else{
+            Log.d(TAG, "there is no file in the sdcard");
+            finish();
+        }
+
+        path = new File(Environment.getExternalStorageDirectory(),"pause.png");
+        if(path.exists()){
+            pausePath = path.getPath();
+        }else{
+            Log.d(TAG, "there is no file in the sdcard");
+            finish();
+        }
 
 
         /*
@@ -98,59 +136,24 @@ public final class HelloWorldActivity extends Activity implements OnClickListene
             intent.setClass(context, HelloWorldExtensionService.class);
             context.startService(intent);
         }
-
-
-        //Start the extension service as soon the Activity starts
+        //Start the extension as soon as teh service starts
         startExtension();
 
-        Log.d(TAG, " onCreate: Starting the Song first time");
-        updateSong();
-        mIdx++;
-        mState = !mState;
 
-    }
+        Log.d(TAG, " onCreate: Starting the APP");
+        //Now build the layout based on the images in the sdcard
+        Bitmap bmpImage = BitmapFactory.decodeFile(image);
+        Drawable bckgrnd = new BitmapDrawable(getResources(),bmpImage);
+        mLayout.setBackground(bckgrnd);
 
-    BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if(intent != null){
-                Log.d(TAG,"BroadcastReciever: Action =" + intent.getAction());
-                Bundle extras = intent.getExtras();
-                if(extras != null){
-                    mState = extras.getBoolean("SongState");
-                    Log.d(TAG, " New State: " + mState);
-                    toggleState();
-                }
-            }
+        //Song name and title
+        mTitle.setText(null);
+        mText.setText(null);
 
-        }
-    };
-
-    @Override
-    public void onClick(View v) {
-        Log.d(TAG, "startExtension ");
-        switch (v.getId()){
-            case R.id.phn_play_btn:
-                toggleState();
-                HelloWorldExtensionService.SmartEyeglassControl.updateState(mState);
-                mState = !mState;
-                //need to send the state to the glass too.
-
-
-                break;
-            case R.id.phn_next_btn:
-                //mState = !mState;
-                updateSong();
-                HelloWorldExtensionService.SmartEyeglassControl.updateState(mState);
-                HelloWorldExtensionService.SmartEyeglassControl.updateSong(mIdx);
-                mIdx++;
-                //mState = !mState;
-                //need to send the data to glass
-                break;
-            default:
-                Log.d(TAG, "Wrong Option");
-                break;
-        }
+        //add the image view for the play button
+        Bitmap bmpButton = BitmapFactory.decodeFile(pausePath);
+        Drawable  play = new BitmapDrawable(getResources(),bmpButton);
+        mPlay.setImageDrawable(play);
     }
 
     /**
@@ -166,21 +169,76 @@ public final class HelloWorldActivity extends Activity implements OnClickListene
         }
     }
 
-    //change the state of the song
-    private void toggleState(){
-        Log.d(TAG, "Toggle Song: " + mState);
-        if(mState)
-            mPlay.setImageResource(R.drawable.pause);
-        else
-            mPlay.setImageResource(R.drawable.play);
+    BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            if(intent != null){
+                Bundle extras = intent.getExtras();
+                if(extras != null){
+                    //add the image views
+                    mPause = intent.getBooleanExtra("state", true);
+                    changeState();
+                }
+            }
+        }
+    };
+
+    @Override
+    public void onClick(View v) {
+        Log.d(TAG, " onClick ");
+        switch (v.getId()){
+            case R.id.phn_play_btn:
+                toggleState();
+                break;
+            default:
+                Log.d(TAG, "Wrong Option");
+                break;
+        }
     }
 
-    //change the song by clicking the next button
-    private void updateSong(){
-        Log.d(TAG, "Update Song: ");
-        mTitle.setText(mAlbum[(mAlbum.length+mIdx)%(mAlbum.length)]);
-        mText.setText(mSong[(mSong.length+mIdx)%(mSong.length)]);
-        toggleState();
+    private void changeState(){
+        Bitmap bmp = null;
+
+        if(mPause){
+            Log.d(TAG, "Path = " + playPath);
+            bmp = BitmapFactory.decodeFile(playPath);
+        }else{
+            Log.d(TAG, "Path = " + pausePath);
+            bmp = BitmapFactory.decodeFile(pausePath);
+        }
+
+        if(bmp == null){
+            Log.d(TAG, "bmp  = null");
+            finish();
+        }
+
+        Drawable  play = new BitmapDrawable(getResources(),bmp);
+        mPlay.setImageDrawable(play);
+        Log.d(TAG, "Sending to Glass Pause = " + mPause);
+        HelloWorldExtensionService.Object.sendStateToExtension(bmp,mPause);
+    }
+
+    //change the state of the song
+    private void toggleState(){
+        Bitmap bmp = null;
+
+        if(mPause){
+            Log.d(TAG, "Path = " + playPath);
+            bmp = BitmapFactory.decodeFile(playPath);
+        }else{
+            Log.d(TAG, "Path = " + pausePath);
+            bmp = BitmapFactory.decodeFile(pausePath);
+        }
+
+        if(bmp == null){
+            Log.d(TAG, "bmp  = null");
+            finish();
+        }
+
+        Drawable  play = new BitmapDrawable(getResources(),bmp);
+        mPlay.setImageDrawable(play);
+        mPause = !mPause;
+        HelloWorldExtensionService.Object.sendStateToExtension(bmp,mPause);
     }
 
     @Override
@@ -194,10 +252,11 @@ public final class HelloWorldActivity extends Activity implements OnClickListene
         }
     }
 
+
     @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d(TAG, "onPause, unRegistering the filter and observer");
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy, unRegistering the filter and observer");
         unregisterReceiver(broadcastReceiver);
     }
 }

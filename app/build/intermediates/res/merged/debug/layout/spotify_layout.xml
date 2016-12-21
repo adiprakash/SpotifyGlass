@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/song" >
+    android:background="@drawable/background" >
 
     <ImageView
         android:id="@+id/play_btn"
@@ -17,14 +17,14 @@
     <TextView
         android:id="@+id/title"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:textSize="@dimen/smart_eyeglass_text_size_small"
         android:maxLines="1" />
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="100dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="@dimen/smart_eyeglass_text_size_small"

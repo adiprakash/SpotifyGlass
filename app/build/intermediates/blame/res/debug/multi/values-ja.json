@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+        "outputFile": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\exploded-aar\\HelloWorld\\SmartExtensionUtils\\unspecified\\res\\values-ja\\values-ja.xml",
+                    "file": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\exploded-aar\\TestApp1\\SmartExtensionUtils\\unspecified\\res\\values-ja\\values-ja.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

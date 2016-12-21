@@ -32,6 +32,9 @@ Copyright (c) 2014, Sony Corporation
 package com.example.sony.smarteyeglass.extension.helloworld;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.SystemClock;
 import android.util.Log;
 import com.sony.smarteyeglass.SmartEyeglassControl;
 import com.sonyericsson.extras.liveware.aef.control.Control;
@@ -56,20 +59,14 @@ public final class HelloWorldControl extends ControlExtension {
 
     /* The image icon to be displayed */
     private static boolean iconImage;
-
-    private static final String TAG = "HelloWorldControl";
-
-    // keeps the index of the song being played
-    private static  int mIdx = 0;
+    private static long mStart;
+    private static long mEnd;
+    private static final String TAG = "SpotifyControl";
+    private static final String mSong = "Can't stop the feeling";
+    private static final String mAlbum = "Justin Timberlake";
 
     //False means the play button and true means pause button
-    private static boolean mToggle = false;
-
-    private String[] mSong = {" Don't let me down", " Can't stop the feeling",
-            " Don't let it go", " Panda's in my home", " Counting Stars"};
-
-    private String[] mAlbum = {" Chain Smokers", " Justin timberlake",
-            " Chain Smoker", " Bryan Adam's", "Band of boys"};
+    private static boolean mpause = true;
 
     /**
      * Shows a simple layout on the SmartEyeglass display and sets
@@ -88,7 +85,6 @@ public final class HelloWorldControl extends ControlExtension {
         utils.setRequiredApiVersion(SMARTEYEGLASS_API_VERSION);
         utils.activate(context);
         controlObject = this;
-
         /*
          * Set reference back to this Control object
          * in ExtensionService class to allow access to SmartEyeglass Control
@@ -101,13 +97,29 @@ public final class HelloWorldControl extends ControlExtension {
         if (message != null) {
             showToast(message);
         } else {
-            Log.d(TAG, "Starting the spotify");
-            updateLayout();
-            //updateSong();
+            initLayout();
         }
-
     }
 
+
+    /**
+     *  Update the display with the dynamic message text.
+     */
+    private void initLayout() {
+        showLayout(R.layout.spotify_layout, null);
+        sendText(R.id.title, mAlbum);
+        sendText(R.id.text, mSong);
+        sendImage(R.id.play_btn,R.drawable.pause);
+    }
+
+
+    public void updatePlay(Bitmap bmp, boolean state){
+        Log.d(TAG, "update play");
+        sendImage(R.id.play_btn, bmp);
+        mEnd = SystemClock.elapsedRealtime();
+        Log.d(TAG, "Time taken = " + (mEnd-mStart));
+        mpause = state;
+    }
     /**
      * Provides a public method for ExtensionService and Activity to call in
      * order to request start.
@@ -116,34 +128,6 @@ public final class HelloWorldControl extends ControlExtension {
         startRequest();
     }
 
-    //The public method to toggle the state
-    public void updateState(boolean state){
-        Log.d(TAG, "Update the state");
-        mToggle = state;
-        toggleSong();
-    }
-
-    //The public method to change the song
-    public void updateSong(int index){
-        Log.d(TAG, "Updating the song");
-        mIdx = index;
-        updateSong();
-    }
-
-    // Update the SmartEyeglass display when app becomes visible
-    @Override
-    public void onResume() {
-        resumeSong();
-        super.onResume();
-    }
-
-    // Clean up data structures on termination.
-    @Override
-    public void onDestroy() {
-        Log.d(Constants.LOG_TAG, "onDestroy: HelloWorldControl");
-        utils.deactivate();
-    };
-
     /**
      * Process Touch events.
      * This starts the Android Activity for the app, passing a startup message.
@@ -151,51 +135,12 @@ public final class HelloWorldControl extends ControlExtension {
     @Override
     public void onTouch(final ControlTouchEvent event) {
         super.onTouch(event);
-        Log.d(TAG, "Touch Action: " + event.getAction());
         if (event.getAction() == Control.Intents.TOUCH_ACTION_PRESS) {
-            toggleSong();
+            mpause = !mpause;
+            mStart = SystemClock.elapsedRealtime();
             HelloWorldExtensionService.Object
-                    .sendMessageToActivity(mToggle);
-            mToggle = !mToggle;
-            Log.d(TAG, "Sending State: " + mToggle);
-
+                    .sendStateToActivity(mpause);
         }
-    }
-
-    /**
-     *  Update the display with the dynamic message text.
-     */
-    private void updateLayout() {
-        Log.d(TAG, "Update Layout ");
-        showLayout(R.layout.spotify_layout, null);
-        sendText(R.id.title, mAlbum[(mAlbum.length+mIdx)%(mAlbum.length)]);
-        sendText(R.id.text, mSong[(mSong.length+mIdx)%(mSong.length)]);
-        if(mToggle)
-            sendImage(R.id.play_btn,R.drawable.pause);
-        else
-            sendImage(R.id.play_btn,R.drawable.play);
-    }
-
-    //Toggle the song state upon touch
-    private void toggleSong(){
-        Log.d(TAG, "Toggle Song: " + mToggle);
-        if(mToggle)
-            sendImage(R.id.play_btn,R.drawable.pause);
-        else
-            sendImage(R.id.play_btn,R.drawable.play);
-    }
-
-    // update the song upon Tap
-    private void updateSong(){
-        Log.d(TAG, "update Song: " + mIdx);
-        updateLayout();
-        mIdx++;
-        mToggle = !mToggle;
-    }
-
-    private void resumeSong(){
-        Log.d("HelloWorldControl", "resume Song: ");
-        updateSong();
     }
 
     /**
@@ -207,5 +152,20 @@ public final class HelloWorldControl extends ControlExtension {
         Log.d(Constants.LOG_TAG, "Timeout Dialog : HelloWorldControl");
         utils.showDialogMessage(message,
                 SmartEyeglassControl.Intents.DIALOG_MODE_TIMEOUT);
+    }
+
+    @Override
+    public void onResume() {
+        Log.d(Constants.LOG_TAG, "onResume: InitLayout called");
+        initLayout();
+        super.onResume();
+
+    }
+
+    // Clean up data structures on termination.
+    @Override
+    public void onDestroy() {
+        Log.d(Constants.LOG_TAG, "onDestroy: HelloWorldControl");
+        utils.deactivate();
     }
 }

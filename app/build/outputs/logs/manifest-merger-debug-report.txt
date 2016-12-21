@@ -1,162 +1,166 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:2:1-68:12
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:3:5-66
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:3:5-66
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:5:5-32
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:4:5-32
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [HelloWorld:SmartEyeglassAPI:unspecified] C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\exploded-aar\HelloWorld\SmartEyeglassAPI\unspecified\AndroidManifest.xml:5:5-7:41
-MERGED from [HelloWorld:SmartExtensionAPI:unspecified] C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\exploded-aar\HelloWorld\SmartExtensionAPI\unspecified\AndroidManifest.xml:5:5-7:41
-MERGED from [HelloWorld:SmartExtensionUtils:unspecified] C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\exploded-aar\HelloWorld\SmartExtensionUtils\unspecified\AndroidManifest.xml:5:5-7:41
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [TestApp1:SmartEyeglassAPI:unspecified] C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\exploded-aar\TestApp1\SmartEyeglassAPI\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [TestApp1:SmartExtensionAPI:unspecified] C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\exploded-aar\TestApp1\SmartExtensionAPI\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [TestApp1:SmartExtensionUtils:unspecified] C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\exploded-aar\TestApp1\SmartExtensionUtils\unspecified\AndroidManifest.xml:5:5-7:41
 	android:targetSdkVersion
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml
 uses-permission#com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:11:5-97
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:11:5-97
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:11:22-94
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:11:22-94
 uses-permission#com.sony.smarteyeglass.permission.SMARTEYEGLASS
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:12:5-87
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:12:5-87
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:12:22-84
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:12:22-84
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:13:22-77
 application
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:14:5-66:19
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:15:5-67:19
 	android:label
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:15:9-36
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:16:9-36
 	android:icon
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:16:9-38
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:17:9-38
 activity#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldActivity
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:label
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:20:13-62
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:21:13-62
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:19:13-98
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:20:13-98
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+com.example.sony.smarteyeglass.extension.helloworld.CHANGE_STATE
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:23:25-66
 action#com.example.sony.smarteyeglass.extension.helloworld.CHANGE_STATE
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:23:17-109
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:24:17-109
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:23:25-106
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:24:25-106
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:25:27-74
 service#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldExtensionService
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:28:9-114
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:29:9-114
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:28:18-111
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:29:18-111
 service#com.sonyericsson.extras.liveware.extension.util.TunnelService
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:29:9-33:19
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:30:9-34:19
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:29:18-94
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:30:18-94
 intent-filter#com.sonyericsson.extras.liveware.aef.tunnel.action.BIND
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:30:13-32:29
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:31:13-33:29
 action#com.sonyericsson.extras.liveware.aef.tunnel.action.BIND
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:31:17-98
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:32:17-98
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:31:25-95
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:32:25-95
 receiver#com.example.sony.smarteyeglass.extension.helloworld.HelloWorldExtensionReceiver
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:35:9-65:20
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:36:9-66:20
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:35:19-113
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:36:19-113
 intent-filter#android.intent.action.LOCALE_CHANGED+com.sonyericsson.extras.aef.control.ERROR+com.sonyericsson.extras.aef.control.KEY_EVENT+com.sonyericsson.extras.aef.control.MENU_ITEM_SELECTED+com.sonyericsson.extras.aef.control.OBJECT_CLICK_EVENT+com.sonyericsson.extras.aef.control.PAUSE+com.sonyericsson.extras.aef.control.RESUME+com.sonyericsson.extras.aef.control.START+com.sonyericsson.extras.aef.control.STOP+com.sonyericsson.extras.aef.control.SWIPE_EVENT+com.sonyericsson.extras.aef.control.TOUCH_EVENT+com.sonyericsson.extras.aef.widget.ONTOUCH+com.sonyericsson.extras.aef.widget.START_REFRESH_IMAGE_REQUEST+com.sonyericsson.extras.aef.widget.STOP_REFRESH_IMAGE_REQUEST+com.sonyericsson.extras.liveware.aef.notification.REFRESH_REQUEST+com.sonyericsson.extras.liveware.aef.notification.VIEW_EVENT_DETAIL+com.sonyericsson.extras.liveware.aef.registration.ACCESSORY_CONNECTION+com.sonyericsson.extras.liveware.aef.registration.EXTENSION_REGISTER_REQUEST+com.sonyericsson.extras.liveware.extension.util.widget.scheduled.refresh
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:36:13-64:29
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:37:13-65:29
 action#com.sonyericsson.extras.liveware.aef.registration.EXTENSION_REGISTER_REQUEST
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:39:17-119
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:40:17-119
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:39:25-116
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:40:25-116
 action#com.sonyericsson.extras.liveware.aef.registration.ACCESSORY_CONNECTION
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:40:17-113
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:41:17-113
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:40:25-110
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:41:25-110
 action#android.intent.action.LOCALE_CHANGED
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:41:17-79
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:42:17-79
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:41:25-76
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:42:25-76
 action#com.sonyericsson.extras.liveware.aef.notification.VIEW_EVENT_DETAIL
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:44:17-110
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:45:17-110
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:44:25-107
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:45:25-107
 action#com.sonyericsson.extras.liveware.aef.notification.REFRESH_REQUEST
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:45:17-108
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:46:17-108
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:45:25-105
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:46:25-105
 action#com.sonyericsson.extras.aef.widget.START_REFRESH_IMAGE_REQUEST
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:48:17-105
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:49:17-105
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:48:25-102
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:49:25-102
 action#com.sonyericsson.extras.aef.widget.STOP_REFRESH_IMAGE_REQUEST
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:49:17-104
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:50:17-104
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:49:25-101
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:50:25-101
 action#com.sonyericsson.extras.aef.widget.ONTOUCH
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:50:17-85
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:51:17-85
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:50:25-82
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:51:25-82
 action#com.sonyericsson.extras.liveware.extension.util.widget.scheduled.refresh
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:51:17-115
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:52:17-115
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:51:25-112
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:52:25-112
 action#com.sonyericsson.extras.aef.control.START
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:54:17-84
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:55:17-84
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:54:25-81
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:55:25-81
 action#com.sonyericsson.extras.aef.control.STOP
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:55:17-83
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:56:17-83
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:55:25-80
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:56:25-80
 action#com.sonyericsson.extras.aef.control.PAUSE
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:56:17-84
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:57:17-84
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:56:25-81
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:57:25-81
 action#com.sonyericsson.extras.aef.control.RESUME
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:57:17-85
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:58:17-85
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:57:25-82
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:58:25-82
 action#com.sonyericsson.extras.aef.control.ERROR
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:58:17-84
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:59:17-84
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:58:25-81
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:59:25-81
 action#com.sonyericsson.extras.aef.control.KEY_EVENT
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:59:17-88
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:60:17-88
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:59:25-85
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:60:25-85
 action#com.sonyericsson.extras.aef.control.TOUCH_EVENT
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:60:17-90
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:61:17-90
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:60:25-87
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:61:25-87
 action#com.sonyericsson.extras.aef.control.SWIPE_EVENT
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:61:17-90
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:62:17-90
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:61:25-87
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:62:25-87
 action#com.sonyericsson.extras.aef.control.OBJECT_CLICK_EVENT
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:62:17-97
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:63:17-97
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:62:25-94
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:63:25-94
 action#com.sonyericsson.extras.aef.control.MENU_ITEM_SELECTED
-ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:63:17-97
+ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:64:17-97
 	android:name
-		ADDED from C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\src\main\AndroidManifest.xml:63:25-94
+		ADDED from C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\src\main\AndroidManifest.xml:64:25-94

@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause.png",
-        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\drawable-hdpi\\pause.png"
+        "merged": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\song.png",
+        "source": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\src\\main\\res\\drawable-hdpi\\song.png"
     },
     {
-        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play.png",
-        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\drawable-hdpi\\play.png"
+        "merged": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
-        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\next.png",
-        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\drawable-hdpi\\next.png"
+        "merged": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pause.png",
+        "source": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\src\\main\\res\\drawable-hdpi\\pause.png"
     },
     {
-        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play.png",
+        "source": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\src\\main\\res\\drawable-hdpi\\play.png"
     },
     {
-        "merged": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\song.png",
-        "source": "C:\\Users\\ADITYA\\AppData\\Local\\Android\\sdk\\add-ons\\addon-sony_smarteyeglass_sdk-sony-19\\samples\\HelloWorld\\app\\src\\main\\res\\drawable-hdpi\\song.png"
+        "merged": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\next.png",
+        "source": "C:\\Users\\ADITYA\\Documents\\Curriculum\\Semester 3\\cse524\\TestApp1\\app\\src\\main\\res\\drawable-hdpi\\next.png"
     }
 ]

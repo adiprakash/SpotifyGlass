@@ -28,5 +28,23 @@
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
         <dex dex="C:\Users\ADITYA\AppData\Local\Android\sdk\add-ons\addon-sony_smarteyeglass_sdk-sony-19\samples\HelloWorld\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_1130f037c3532334601b66095a407294b811442b\classes.dex" />
     </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3700666817f6097a5a2d2a1edf8ce8a07b5cd69d">
+        <dex dex="C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5f006637556298facd8b057d4564bdea075f3844\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5d94178bb45e8ff0e0148eac1b8d888fdf9012ab">
+        <dex dex="C:\Users\ADITYA\Documents\Curriculum\Semester 3\cse524\TestApp1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_1bb9df1bbd7333122d159a327efa4f9abf8a93e4\classes.dex" />
+    </item>
 
 </items>

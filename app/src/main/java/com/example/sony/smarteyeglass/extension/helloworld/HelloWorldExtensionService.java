@@ -35,9 +35,11 @@ import java.io.ByteArrayOutputStream;
 import java.util.List;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.util.Log;
 
 import com.sonyericsson.extras.liveware.aef.control.Control;
+import com.sonyericsson.extras.liveware.aef.widget.Widget;
 import com.sonyericsson.extras.liveware.extension.util.ExtensionService;
 import com.sonyericsson.extras.liveware.extension.util.ExtensionUtils;
 import com.sonyericsson.extras.liveware.extension.util.control.ControlExtension;
@@ -71,6 +73,7 @@ public final class HelloWorldExtensionService extends ExtensionService {
     public void onCreate() {
         super.onCreate();
         Log.d(Constants.LOG_TAG, "onCreate: HelloWorldExtensionService");
+        //startSmartEyeglassExtension();
     }
 
     @Override
@@ -104,22 +107,33 @@ public final class HelloWorldExtensionService extends ExtensionService {
      * since the SmartEyeglass was turned on.
      */
     public void startSmartEyeglassExtension() {
+        Log.d(Constants.LOG_TAG, "startSmartEyeglassExtension");
         Intent intent = new Intent(Control.Intents
                 .CONTROL_START_REQUEST_INTENT);
         ExtensionUtils.sendToHostApp(getApplicationContext(),
                 "com.sony.smarteyeglass", intent);
     }
 
+
+    //sending the intent to the glass
+    public void sendStateToExtension(Bitmap bitmap, boolean pause){
+        Log.d(Constants.LOG_TAG, "sendStateToExtension , " +
+                "SmartEyeglassControl: " + SmartEyeglassControl );
+        if(SmartEyeglassControl != null){
+            SmartEyeglassControl.updatePlay(bitmap,pause);
+        }else{
+            startSmartEyeglassExtension();
+        }
+    }
+
     /**
      * Sends a  message to be shown in Android activity
      * action: 1) to change the song 0) for nothing, just to change the play and pause condition
      */
-    public void sendMessageToActivity(final boolean state) {
+    public void sendStateToActivity( boolean pause) {
         Intent intent = new Intent();
-        //intent.setClass(getBaseContext(), HelloWorldActivity.class);
         intent.setAction("com.example.sony.smarteyeglass.extension.helloworld.CHANGE_STATE");
-        intent.putExtra("SongState", state);
-        Log.d(Constants.LOG_TAG, "Sending the broadcast: " + intent.getAction());
+        intent.putExtra("state", pause);
         sendBroadcast(intent);
     }
 

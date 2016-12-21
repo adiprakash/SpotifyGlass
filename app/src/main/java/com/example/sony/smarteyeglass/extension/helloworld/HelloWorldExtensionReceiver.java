@@ -41,10 +41,10 @@ import android.util.Log;
  * extension service when they arrive.
  */
 public final class HelloWorldExtensionReceiver extends BroadcastReceiver {
-
+    private static final String TAG = "SpotifyExtenReceiver";
     @Override
     public void onReceive(final Context context, final Intent intent) {
-        Log.d(Constants.LOG_TAG, "onReceive: " + intent.getAction());
+        Log.d(TAG, "onReceive: " + intent.getAction());
         intent.setClass(context, HelloWorldExtensionService.class);
         context.startService(intent);
     }

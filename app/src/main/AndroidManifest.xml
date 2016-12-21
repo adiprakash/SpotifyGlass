@@ -10,6 +10,7 @@
 
     <uses-permission android:name="com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION" />
     <uses-permission android:name="com.sony.smarteyeglass.permission.SMARTEYEGLASS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="false"
